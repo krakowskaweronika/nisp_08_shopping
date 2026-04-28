@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zamówienie</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Podsumowanie zamówienia</h1>
+  <nav>
+    <a href="lista.html">Lista</a>
+    <a href="koszyk.html">Koszyk</a>
+    <a href="zamowienie.html">Zamówienie</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Podsumowanie</h2>
+    <div id="podsumowanie">
+      <!-- JS wstawi produkty -->
+    </div>
+    <p><strong>Suma:</strong> <span id="suma">0 zł</span></p>
+  </section>
+
+  <section>
+    <h2>Dane klienta</h2>
+
+    <form id="formularz">
+      <label>
+        Imię:
+        <input type="text" name="imie" required>
+      </label>
+
+      <br><br>
+
+      <label>
+        Email:
+        <input type="email" name="email" required>
+      </label>
+
+      <br><br>
+
+      <button type="submit">Złóż zamówienie</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>Dziękujemy za zakupy!</p>
+</footer>
+
+<script src="js/zamowienie.js"></script>
+</body>
+</html>
